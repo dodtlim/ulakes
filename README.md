@@ -8,7 +8,15 @@ by [Matt McGee](https://github.com/sticklematt),
 [Ole Seehausen](http://www.eawag.ch/en/aboutus/portrait/organisation/staff/profile/ole-seehausen/),
 manuscript ID MEC-15-0615.R2. 
 
+In addition to many of the key intermediate data files, we have
+included the following pieces of code and data required to reproduce
+our results.
+
 ### Notebooks
+
+These notebooks are build using [Jupyter
+Notebook](http://jupyter.org/) 4.0.6 (a.k.a., [iPython
+notebook](http://ipython.org/notebook.html))
 
 * **`CichlidVariantCalling.ipynb`** : Read alignment and variant calling
 * **`ulakes.ipynb`** : Basic population genetics
