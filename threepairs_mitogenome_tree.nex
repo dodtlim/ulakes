@@ -1,0 +1,100 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=6;
+	taxlabels
+	Harpagochromis_cf_serranus
+	Harpagochromis_vittatus
+	Orthochromis_redcheek
+	Paralabidochromis_flavus
+	Paralabidochromis_paucidens
+	Serranochromis_checkerboard
+;
+end;
+
+begin trees;
+	tree TREE1 = [&R] ((Serranochromis_checkerboard[&height=6.365677213747988E-10,height_95%_HPD={0.0,2.561137080192566E-9},height_median=0.0,height_range={0.0,4.0745362639427185E-9},length=0.03433182645192299,length_95%_HPD={0.03111422434449196,0.0372411347925663},length_median=0.03428536653518677,length_range={0.02368846721947193,0.04504821076989174},rate=0.9936521557499567,rate_95%_HPD={0.9094816639937248,1.0720082243463014},rate_median=0.9992371517583202,rate_range={0.6508687645721462,1.4543061131504287}]:0.034335,Orthochromis_redcheek[&height=6.392856567480745E-10,height_95%_HPD={0.0,2.561137080192566E-9},height_median=0.0,height_range={0.0,4.0745362639427185E-9},length=0.03432833191755811,length_95%_HPD={0.03111422434449196,0.0372411347925663},length_median=0.03428536653518677,length_range={0.02368846721947193,0.04356256499886513},rate=1.0065307165592654,rate_95%_HPD={0.9319170726330311,1.0978875904320426},rate_median=1.0006189850864176,rate_range={0.6899761293867791,1.4543061131504287}]:0.034335)[&height=0.03430338765001169,height_95%_HPD={0.031294360756874084,0.03724113677162677},height_median=0.03427659173030406,height_range={0.02368846721947193,0.04161221906542778},length=0.010831987318794447,length_95%_HPD={0.0071179973892867565,0.014737472869455814},length_median=0.010857716202735901,length_range={4.988896762370132E-5,0.025924749672412872},posterior=0.9957339021463805,rate=1.0006723859095892,rate_95%_HPD={0.8391442343106723,1.1504456808181014},rate_median=0.9999977222805454,rate_range={0.362092044450379,3.406137062130383}]:0.010786,((Harpagochromis_vittatus[&height=6.534975875551948E-10,height_95%_HPD={0.0,2.561137080192566E-9},height_median=1.1641532182693481E-10,height_range={0.0,4.0745362639427185E-9},length=0.001975700318595858,length_95%_HPD={0.0014710479881614447,0.002447013044729829},length_median=0.001959992339834571,length_range={9.609049302525818E-4,0.004685575142502785},rate=1.0100492933393463,rate_95%_HPD={0.8623774615436622,1.1786897805898684},rate_median=1.0002593760433203,rate_range={0.47158966917156603,2.1696141056468212}]:0.001976,Paralabidochromis_paucidens[&height=6.534975875551948E-10,height_95%_HPD={0.0,2.561137080192566E-9},height_median=1.1641532182693481E-10,height_range={0.0,4.0745362639427185E-9},length=0.001975700318595858,length_95%_HPD={0.0014710479881614447,0.002447013044729829},length_median=0.001959992339834571,length_range={9.609049302525818E-4,0.004685575142502785},rate=0.9948968856832425,rate_95%_HPD={0.8312690566565994,1.1421165009905814},rate_median=0.9998507552787392,rate_range={0.3748528049671103,2.1696141056468212}]:0.001976)[&height=0.0019757009720934456,height_95%_HPD={0.0014710479881614447,0.002447014907374978},height_median=0.0019599924562498927,height_range={9.609069675207138E-4,0.004685575375333428},length=0.0015179616429885471,length_95%_HPD={9.7934203222394E-4,0.0020641079172492027},length_median=0.0014961971901357174,length_range={5.357619374990463E-4,0.004397943150252104},posterior=1.0,rate=1.0040265480516632,rate_95%_HPD={0.8394405441009938,1.169524040285559},rate_median=1.0000563177653892,rate_range={0.362092044450379,2.046568426202608}]:0.001518,(Harpagochromis_cf_serranus[&height=6.541494264455736E-10,height_95%_HPD={0.0,2.561137080192566E-9},height_median=1.1641532182693481E-10,height_range={0.0,4.190951585769653E-9},length=0.0013385307408479157,length_95%_HPD={9.290908928960562E-4,0.0017607342451810837},length_median=0.001321141142398119,length_range={5.275596049614251E-4,0.003701866837218404},rate=0.998401709510567,rate_95%_HPD={0.8322982424670917,1.1479812645481247},rate_median=0.9999817084014494,rate_range={0.36649951181480855,1.803095736672807}]:0.001339,Paralabidochromis_flavus[&height=6.541494264455736E-10,height_95%_HPD={0.0,2.561137080192566E-9},height_median=1.1641532182693481E-10,height_range={0.0,4.190951585769653E-9},length=0.0013385307408479157,length_95%_HPD={9.290908928960562E-4,0.0017607342451810837},length_median=0.001321141142398119,length_range={5.275596049614251E-4,0.003701866837218404},rate=0.9875675239650609,rate_95%_HPD={0.7964552150690651,1.115390511371527},rate_median=0.9993600490694541,rate_range={0.3662669128421817,1.6588542824146888}]:0.001339)[&height=0.0013385313949973421,height_95%_HPD={9.290933376178145E-4,0.0017607342451810837},height_median=0.0013211423065513372,height_range={5.275597795844078E-4,0.003701866837218404},length=0.002155131220084651,length_95%_HPD={0.0015220103086903691,0.0027718187775462866},length_median=0.0021327899303287268,length_range={5.628380458801985E-4,0.004737537819892168},posterior=1.0,rate=0.9869180672661251,rate_95%_HPD={0.7954876587506056,1.1212728882581189},rate_median=0.9992324045691048,rate_range={0.36354388018273115,2.9168859501760465}]:0.002155)[&height=0.003493662615081993,height_95%_HPD={0.0028499457985162735,0.004146799095906317},height_median=0.0034650490852072835,height_range={0.0023583383299410343,0.006467221304774284},length=0.04161739286689373,length_95%_HPD={0.039229895919561386,0.04419941455125809},length_median=0.041642896831035614,length_range={0.030382227152585983,0.0469294898211956},posterior=1.0,rate=1.0050234552523458,rate_95%_HPD={0.8787059659561077,1.108676949255463},rate_median=1.0000552417022743,rate_range={0.6040117725208654,1.677433190369136}]:0.041627)[&height=0.04512065816524535,height_95%_HPD={0.042751170811243355,0.04749823734164238},height_median=0.045108454301953316,height_range={0.03876255173236132,0.05074116960167885},length=0.0,posterior=1.0,rate=1.0];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="height";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="height_95%_HPD";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="posterior";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=true;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.25;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0050;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
